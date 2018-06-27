@@ -18,7 +18,7 @@ function iLoveTheBeatles(x){
   var i=0
 
   do {
-  array[i]="I Love the Beatles!"
+  array[i]="I love the Beatles!"
     console.log("i is "+i)
     console.log("x is "+x)
  i++ 
