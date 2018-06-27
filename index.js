@@ -1,0 +1,48 @@
+ const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+ 
+const facts= [
+        "He was the last Beatle to learn to drive",
+        "He was never a vegetarian",
+        "He was a choir boy and boy scout",
+        "He hated the sound of his own voice"
+      ]    
+var n=Math.floor(100*Math.random())
+
+
+
+console.log(iLoveTheBeatles(n))
+
+function iLoveTheBeatles(x){
+  var array=[]
+  var i=0
+  console.log(x)
+  do {
+  array[i]="I Love the Beatles!"
+  i++  
+  }while (i<15)
+
+  return array
+
+}
+
+
+
+
+function theBeatlesPlay(x,y){
+  var array=[];
+  for (let i=0;i<instruments.length;i++){
+    array[i]=musicians[i]+" plays "+instruments[i]
+  } 
+  return array
+}
+
+function johnLennonFacts(x){
+  var i=0
+  while (i<x.length){
+    x[i]=x[i]+"!!!"
+    i++
+  }
+  return x
+}
+
