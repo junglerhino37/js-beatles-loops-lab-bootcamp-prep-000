@@ -11,7 +11,7 @@ var n=Math.floor(100*Math.random())
 
 
 
-console.log(iLoveTheBeatles(7))
+console.log(iLoveTheBeatles(1))
 
 function iLoveTheBeatles(x){
   var array=[]
