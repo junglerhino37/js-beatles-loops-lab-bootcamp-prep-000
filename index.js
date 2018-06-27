@@ -11,7 +11,7 @@ var n=Math.floor(100*Math.random())
 
 
 
-console.log(iLoveTheBeatles(n))
+console.log(iLoveTheBeatles(17))
 
 function iLoveTheBeatles(x){
   var array=[]
@@ -21,7 +21,7 @@ function iLoveTheBeatles(x){
   array[i]="I Love the Beatles!"
     console.log(i)
   i++  
-  }while (i<=17)
+  }while (i<15)
 
   return array
 
