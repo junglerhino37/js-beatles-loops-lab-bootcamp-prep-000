@@ -20,8 +20,9 @@ function iLoveTheBeatles(x){
   do {
   array[i]="I Love the Beatles!"
     console.log("i is "+i)
+    console.log("i is "+i)
  i++ 
-  }while (i<=n && n<15)
+  }while (i<=x && n<15)
 
   return array
 
