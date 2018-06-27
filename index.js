@@ -22,7 +22,7 @@ function iLoveTheBeatles(x){
     console.log("i is "+i)
     console.log("x is "+x)
  i++ 
-  }while (i<=x && n<15)
+  }while (i<=x )
 
   return array
 
