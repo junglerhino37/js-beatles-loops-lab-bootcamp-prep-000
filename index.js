@@ -16,9 +16,10 @@ console.log(iLoveTheBeatles(n))
 function iLoveTheBeatles(x){
   var array=[]
   var i=0
-  console.log(x)
+
   do {
   array[i]="I Love the Beatles!"
+    console.log(i)
   i++  
   }while (i<15)
 
